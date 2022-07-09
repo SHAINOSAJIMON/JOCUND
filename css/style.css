@@ -2,7 +2,9 @@
     --primary: #6a55ea;
     --secondary: #24163f;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .Logo_logo__nj7RB {
     display: inline-flex;
     align-items: center;
