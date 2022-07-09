@@ -7715,7 +7715,7 @@ body.fb_hidden {
     display: flex;
     justify-content: center;
     height: auto;
-    margin-top: 20px;
+    margin-top: 6em;
 }
 
 @-webkit-keyframes popUp {
@@ -7784,8 +7784,8 @@ body.fb_hidden {
 
 .profile__button {
     border-radius: 50px;
-    border: 1px solid #000000;
-    color: #000000;
+    border: 1px solid #493aa5;
+    color: #493aa5;
     display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
@@ -7793,10 +7793,11 @@ body.fb_hidden {
     text-align: center;
     text-decoration: none;
     transition: ease-in-out 250ms background, ease-in-out 250ms color;
+    margin: 10px;
 }
 
 .profile__button:hover {
-    background: #000000;
+    background: var(--primary);
     color: #ffffff;
 }
 
@@ -7918,3 +7919,31 @@ body.fb_hidden {
     width: 40px;
     height: auto;
 }
+
+/* tabel  */
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.17);
+   
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+  }
+
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary);
+    color: white;
+  }
